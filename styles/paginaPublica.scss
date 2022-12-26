@@ -1,0 +1,10 @@
+.paginaPublica{
+    display: flex;
+    flex-direction: column;
+
+    .logoContainer{
+        position: relative;
+        height: 50px;
+        width: 50px;
+    }
+}

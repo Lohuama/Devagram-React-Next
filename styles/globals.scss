@@ -1,10 +1,14 @@
 @import './variaveis.scss';
-@import '../componentes/botao/botao.scss';
-@import '../public/fonts/fonts.scss';
+
 
 *{
   font-family: $fontRegular;
   font-size: 14px;
+}
+
+html, body, #__next{
+  height: 100%;
+  margin: 0;
 }
 
 .avatar{
@@ -16,3 +20,6 @@
   display: none;
 }
 
+@import '../componentes/botao/botao.scss';
+@import '../public/fonts/fonts.scss';
+@import './paginaPublica.scss';
