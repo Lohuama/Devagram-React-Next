@@ -20,6 +20,25 @@ html, body, #__next{
   display: none;
 }
 
+input{
+  &::placeholder{
+    /*chome, opera, safari e firefox*/
+    color: $cinza2;
+    opacity: 1;
+  }
+
+  &:-ms-input-placeholder{
+    /*explorer 10-11*/
+    color: $cinza2;
+  }
+
+  &::-ms-input-placeholder{
+    /*edge*/
+    color: $cinza2;
+  }
+}
+
 @import '../componentes/botao/botao.scss';
 @import '../public/fonts/fonts.scss';
 @import './paginaPublica.scss';
+@import '../componentes/inputPublico/inputPublico.scss';
